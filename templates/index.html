@@ -72,8 +72,8 @@
 	                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	                  <ul class="nav navbar-nav navbar-right">
 	                    <li><a href="#HOME">Home</a></li>
-	                    <li><a href="#SERVICE">Expertise</a></li>
 	                    <li><a href="#ABOUT">About</a></li>
+                      <li><a href="#SERVICE">Expertise</a></li>
 	                    <li><a href="#WORK">Projects</a></li>
 	                    <li><a href="#CONTACT">Contact</a></li>
 	                  </ul>
@@ -97,7 +97,7 @@
 	                <div class="row">
 	                    <div class="col-md-12 text-center">
 	                        <div class="scroll_down">
-                            <a href="#SERVICE"><img src="{{ url_for('static', filename='images/scroll.png') }}" alt=""></a>
+                            <a href="#ABOUT"><img src="{{ url_for('static', filename='images/scroll.png') }}" alt=""></a>
 	                            <h4>Scroll down</h4>
 	                        </div>
 	                    </div>
@@ -107,41 +107,6 @@
 	    </section>
     </header>
 
-
-    <section class="services" id="SERVICE">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 text-center">
-                    <div class="single_service wow fadeInUp" data-wow-delay="1s">
-                        <i class="icon-pencil"></i>
-                        <h2>Data Analysis</h2>
-                        <p>Alchemise data into value. Whether it is to develop a deeper understanding of a subject, to draw business insights, or to have fun. </p>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="single_service wow fadeInUp" data-wow-delay="2s">
-                        <i class="icon-gears"></i>
-                        <h2>Machine Learning</h2>
-                        <p>Prediction, prediction, prediction. The subtle art of providing systems the ability to learn and improve from experience using algorithmic approaches. </p>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="single_service wow fadeInUp" data-wow-delay="3s">
-                        <i class="icon-camera"></i>
-                        <h2>Data Visualization</h2>
-                        <p>Clever ways to plot data for imformation retrieval, effective communication, and producing mesmerizing art.</p>
-                    </div>
-                </div>
-                <div class="col-md-3 text-center">
-                    <div class="single_service wow fadeInUp" data-wow-delay="4s">
-                        <i class="icon-magnifying-glass"></i>
-                        <h2>And More...</h2>
-                        <p>I love music, games, sports, food and photography. Come and recommend me a song you like!</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
     <section class="about_us_area" id="ABOUT">
         <div class="container">
             <div class="row">
@@ -155,9 +120,9 @@
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-4  wow fadeInLeft animated">
+                <div class="col-md-3  wow fadeInLeft animated">
                   <div class="tech_stack_header">
-                    <h3>Tech Stack:</h3>
+                    <h3>Tech Stack</h3>
                   </div>
                     <div class="single_progress_bar">
                         <h2>Python - 90%</h2>
@@ -172,6 +137,14 @@
                         <div class="progress">
                           <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 90%;">
                             <span class="sr-only">60% Complete</span>
+                          </div>
+                        </div>
+                    </div>
+                    <div class="single_progress_bar">
+                        <h2>Statistics - 80%</h2>
+                        <div class="progress">
+                          <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+                            <span class="sr-only">80% Complete</span>
                           </div>
                         </div>
                     </div>
@@ -200,17 +173,78 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4  wow fadeInRight animated">
-                    <p class="about_us_p">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Sed quia non numquam eius modi tempora.</p>
+                <div class="col-md-5  wow fadeInRight animated">
+                    <h3>Education and Experience</h3>
+                    <ul>
+                        <li>
+                          <p style="font-size:14px">Aug. 2019 - Dec. 2020</p>
+                          <p style="font-size:14px"><b>M.S. in Statistics @ UIUC</b></p>
+                        </li>
+                        <li>
+                          <p style="font-size:14px">Sep. 2013 - Jul. 2018</p>
+                          <p style="font-size:14px"><b>B.S. in Finance @ NCCU</b></p>
+                          <p style="font-size:14px"><b>Certificated Program: Mathematical Finance @ NCCU</b></p>
+                        </li>
+                        <li>
+                          <p style="font-size:14px">Mar. 2019 - Jul. 2020</p>
+                          <p style="font-size:14px"><b>Data Analyst Intern @ Medialand Digital Marketing</b></p>
+                        </li>
+                        <li>
+                          <p style="font-size:14px">Feb. 2018 - Jun. 2018</p>
+                          <p style="font-size:14px"><b>Data Analyst Intern @ Deloitte</b></p>
+                        </li>
+
+                    </ul>
                 </div>
                 <div class="col-md-4  wow fadeInRight animated">
-                    <p class="about_us_p">Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+                    <p class="about_us_p" style="font-size:14px">I am a data scientist/analyst with a big interest in how data shapes our lives. This interest sparked in my undergraduate years when learning quantitative methods in finance, and later drove me toward learning more about data. It’s been a humbling journey over the past 5 years diving deep into the theory of statistics and developing technical skills along the way. With experience working in digital marketing and consulting, my previous works mainly focus on statistical modeling, data mining, and data analytics. However, I am curious about all fields where data has a big impact.</p>
                 </div>
             </div>
         </div>
     </section>
 
-
+    <section class="services" id="SERVICE">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <div class="about_title">
+                    <h2>Areas of Expertise</h2>
+                    <img src="{{ url_for('static', filename='images/shape.png') }}" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="1s">
+                        <i class="icon-pencil"></i>
+                        <h2>Data Analysis</h2>
+                        <p>Alchemise data into value. Whether it is to develop a deeper understanding of a subject, to draw business insights, or to have fun. </p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="2s">
+                        <i class="icon-gears"></i>
+                        <h2>Machine Learning</h2>
+                        <p>Prediction, prediction, prediction. The subtle art of providing systems the ability to learn and improve from experience using algorithmic approaches. </p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="3s">
+                        <i class="icon-camera"></i>
+                        <h2>Data Visualization</h2>
+                        <p>Clever ways to plot data for imformation retrieval, effective communication, and producing mesmerizing art.</p>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div class="single_service wow fadeInUp" data-wow-delay="4s">
+                        <i class="icon-magnifying-glass"></i>
+                        <h2>And More...</h2>
+                        <p>I love music, games, sports, food and photography, and many more.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
     <section class="work_area" id="WORK">
         <div class="container">
