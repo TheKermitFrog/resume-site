@@ -308,7 +308,7 @@ text-transform: uppercase;
 .work_title p, .contact_title p{
 	font-size: 14px;
 	color: #000;
-	margin-bottom: 100px;
+	margin-bottom: 30px;
 }
 .last_padding {
 	padding-right: 0px;
@@ -324,6 +324,7 @@ text-transform: uppercase;
 	font-weight: bold;
 }
 .left p{
+	margin-top: 20px;
 	margin-bottom: 60px;
 	font-size: 14px;
 	color: #000;
@@ -346,7 +347,7 @@ text-transform: uppercase;
 	border-color: #f74d65;
 }
 .call_to_action .container{
-	padding-bottom: 60px;
+	padding-bottom: 20px;
 	border-bottom: 1px solid #ddd;
 }
 

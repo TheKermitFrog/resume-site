@@ -3,6 +3,7 @@
 
 <head>
     <meta charset="utf-8">
+    <link rel="shortcut icon" href="{{ url_for('static', filename='images/frog.png') }}">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Darren W.</title>
@@ -65,7 +66,7 @@
 	                    <span class="icon-bar"></span>
 	                    <span class="icon-bar"></span>
 	                  </button>
-	                  <a class="navbar-brand" href="#"><img src="{{ url_for('static', filename='images/golden-dart-frog.png') }}" alt=""></a>
+	                  <!-- <a class="navbar-brand" href="#HOME"><img src="{{ url_for('static', filename='images/frog.png') }}" alt=""></a> -->
 	                </div>
 
 	                <!-- Collect the nav links, forms, and other content for toggling -->
@@ -199,7 +200,7 @@
                 <div class="col-md-4  wow fadeInRight animated">
                     <p class="about_us_p" style="font-size:14px">I am a data scientist/analyst with a big interest in how data shapes our lives. This interest sparked in my undergraduate years when learning quantitative methods in finance, and later drove me toward learning more about data.<br><br>
                       It’s been a humbling journey over the past 5 years diving deep into the theory of statistics and developing technical skills along the way.
-                      My previous works mainly focus on statistical modeling, data mining, and data analytics in digital marketing and consulting. However, I am curious about all fields where data has a big impact.</p>
+                      My previous works focus mainly on statistical modeling, data mining, and data analytics in digital marketing and consulting. However, I am curious about all fields where data has a big impact.</p>
                 </div>
             </div>
         </div>
@@ -349,7 +350,7 @@
                         <div class="image_overlay">
                             <h5>View Full Project</h5>
                             <h2>Exploratory Data Analysis</h2>
-                            <h4>EDA tutorial with the famous titanic dataset</h4>
+                            <h4>EDA tutorial with the famous Titanic dataset</h4>
                         </div>
                       </a>
                     </div>
@@ -360,20 +361,22 @@
     <section class="call_to_action">
         <div class="container">
             <div class="row">
-                <div class="col-md-8 wow fadeInLeft animated">
+                <div class="col-md-12 text-center">
                     <div class="left">
-                        <h2>LOOKING FOR EXCLUSIVE DIGITAL SERVICES?</h2>
-                        <p>Proin fringilla augue at maximus vestibulum. Nam pulvinar vitae neque et porttitor.
-                        Integer non dapibus diam, ac eleifend lectus.</p>
+                        <h2>Follow Me on Github</h2>
+                        <a href="https://github.com/TheKermitFrog" target="blank">
+                        <img src="{{ url_for('static', filename='images/github_mark.png') }}" alt="">
+                        </a>
+                        <p>I'm always building something new, follow me on Github for latest projects!</p>
                     </div>
                 </div>
-                <div class="col-md-3 col-md-offset-1 wow fadeInRight animated">
+                <!-- <div class="col-md-3 col-md-offset-1 wow fadeInRight animated">
                     <div class="baton">
 	                    <a href="#CONTACT">
 	                        <button type="button" class="btn btn-primary cs-btn">Let's Talk</button>
 	                    </a>
                     </div>
-                </div>
+                </div> -->
             </div>
         </div>
     </section>
@@ -384,29 +387,31 @@
                     <div class="contact_title  wow fadeInUp animated">
                         <h1>get in touch</h1>
                         <img src="{{ url_for('static', filename='images/shape.png') }}" alt="">
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna<br/> aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex.</p>
+                        <p> You're welcome to connect with me on LinkedIn or send me an email. </br>
+                          Open to collaborate on projects or competitions.
+                          Any thought or advice on my previous works is appreciated.</p>
                     </div>
                 </div>
             </div>
         </div>
         <div class="container">
             <div class="row">
-                <div class="col-md-3  wow fadeInLeft animated">
-                    <div class="single_contact_info">
-                        <h2>Call Me</h2>
-                        <p>+88 00 123 456 01</p>
+                <div class="col-md-12 text-center">
+                    <div class="single_contact_info wow fadeInRight animated">
+                        <h2>Find me on LinkedIN</h2>
+                        <a href="https://www.linkedin.com/in/darren-wang-0210/" target="blank"><h4>Darren Wang</h4></a>
                     </div>
-                    <div class="single_contact_info">
+                    <div class="single_contact_info wow fadeInLeft animated">
                         <h2>Email Me</h2>
-                        <p>Hello@example.com</p>
+                        <p>darren.w.hs@gamil.com</p>
                     </div>
-                    <div class="single_contact_info">
+                    <!-- <div class="single_contact_info">
                         <h2>Address</h2>
                         <p>216 Street Address, Barisal, BD</p>
-                    </div>
+                    </div> -->
                 </div>
-                <div class="col-md-9  wow fadeInRight animated">
-                    <form class="contact-form" action="">
+                <!-- <div class="col-md-9  wow fadeInRight animated">
+                    <form class="contact-form" action="mailto:darren.w.hs@gmail.com" method="post" enctype="text/plain">
                         <div class="row">
                             <div class="col-md-6">
                                 <input type="text" class="form-control" id="name" placeholder="Name">
@@ -419,13 +424,13 @@
                             </div>
                         </div>
                     </form>
-                </div>
+                </div> -->
             </div>
         </div>
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="work-with   wow fadeInUp animated">
+                    <div class="work-with wow fadeInUp animated">
                         <h3>looking forward to hearing from you!</h3>
                     </div>
                 </div>
@@ -446,7 +451,7 @@
                 </div>
             </div>
         </div>
-        <div class="container">
+        <!-- <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center   wow fadeInUp animated">
                     <div class="social">
@@ -461,11 +466,11 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <div class="container">
             <div class="row">
                 <div class="col-md-12 text-center">
-                    <div class="copyright_text   wow fadeInUp animated">
+                    <div class="copyright_text">
                         Free Wordpress Themes by <a rel="nofollow" target="_blank" href="http://themezy.com">Themezy!</a>
                     </div>
                 </div>
